@@ -4,7 +4,7 @@
 
 
 
-Projeto Final da disciplina de Práticas De Computação de Dados - 1º Semestre Ilum Escola de Ciência
+Projeto Final da disciplina de Práticas em Ciências de Dados - 1º Semestre Ilum Escola de Ciência
 
 ### Descrição do projeto
 
