@@ -1,5 +1,6 @@
 <img width="1338" height="338" alt="Captura de tela 2026-06-22 111430" src="https://github.com/user-attachments/assets/d7b2d011-3cf0-4310-acc3-c294157c3284" />
 
+Projeto Final da disciplina de Práticas De Computação de Dados - 1º Semestre Ilum Escola de Ciência
 
 ### Descrição do projeto
 
@@ -13,12 +14,12 @@ Para executar o projeto, é necessário ter o Python 3.3.7 instalado, bem como a
 
 ### Tecnologias utilizadas
 
-- Python: Linguagem de programação utilizada como base de todo o projeto.
-- Jupyter Notebook: Ambiente de desenvolvimento interativo no qual o projeto foi desenvolvido e documentado.
-- Math: Módulo nativo do jupyter lab utilizado especificamente pela função ceil, que calcula o número de linhas necessárias no grid de subgráficos com base na quantidade de biomarcadores.
-- Numpy: Biblioteca responsável pela manipulação de arrays numéricos e operações vetorizadas. Utilizada para estruturar os dados de treinamento de cada biomarcador, realizar cálculos de risco e aplicar a função np.clip, que limita os valores previstos ao intervalo [0, 1].
-- Matplotlib: Biblioteca de visualização gráfica usada para gerar todos os gráficos do projeto — dispersão, regressão linear, barras e pizza. Também foi utilizada para configurar a espessura das hachuras nos gráficos de pizza e para personalizar elementos visuais como zonas de fundo coloridas, legendas compartilhadas e formatação dos eixos.
-- sklearn.linear_model: Biblioteca da qual foi utilizado o módulo LinearRegression, responsável pelo ajuste dos modelos de regressão linear. A partir dele, são extraídos os coeficientes a e b de cada biomarcador, bem como o coeficiente de determinação R² para avaliação da qualidade do ajuste.
+- **Python**: Linguagem de programação utilizada como base de todo o projeto.
+- **Jupyter Notebook**: Ambiente de desenvolvimento interativo no qual o projeto foi desenvolvido e documentado.
+- **Math**: Módulo nativo do jupyter lab utilizado especificamente pela função ceil, que calcula o número de linhas necessárias no grid de subgráficos com base na quantidade de biomarcadores.
+- **Numpy**: Biblioteca responsável pela manipulação de arrays numéricos e operações vetorizadas. Utilizada para estruturar os dados de treinamento de cada biomarcador, realizar cálculos de risco e aplicar a função np.clip, que limita os valores previstos ao intervalo [0, 1].
+- **Matplotlib**: Biblioteca de visualização gráfica usada para gerar todos os gráficos do projeto — dispersão, regressão linear, barras e pizza. Também foi utilizada para configurar a espessura das hachuras nos gráficos de pizza e para personalizar elementos visuais como zonas de fundo coloridas, legendas compartilhadas e formatação dos eixos.
+- **sklearn.linear_model**: Biblioteca da qual foi utilizado o módulo LinearRegression, responsável pelo ajuste dos modelos de regressão linear. A partir dele, são extraídos os coeficientes a e b de cada biomarcador, bem como o coeficiente de determinação R² para avaliação da qualidade do ajuste.
 
 
 ### Funcionalidade
