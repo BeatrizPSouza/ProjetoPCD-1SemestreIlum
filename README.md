@@ -62,3 +62,5 @@ AZIZI, Tahmineh. Mathematical modeling of cancer progression. Públicado 2 setem
 NATIONAL COMPREHENSIVE CANCER NETWORK (NCCN). Disponível em: https://www.nccn.org/. Acesso em: 17 jun. 2026
 
 MICROSOFT. Copilot (modelo GPT-5). Orientações sobre uso de cores (HEX, RGB, nomes) e propriedades de fonte (fontweight) em gráficos no Python (matplotlib). Acesso em: 6 jun. 2026.
+
+Claude (versão Sonnet 4.6). Plataforma de inteligência artificial generativa. Orientação de melhorias para notebook Python. Resposta gerada em: 19  jun 2026. Disponível em: https://claude.ai. Acesso em: 19 jun. 2026.
