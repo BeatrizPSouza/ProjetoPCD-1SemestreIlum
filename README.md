@@ -1,5 +1,9 @@
 <img width="1338" height="338" alt="Captura de tela 2026-06-22 111430" src="https://github.com/user-attachments/assets/d7b2d011-3cf0-4310-acc3-c294157c3284" />
 
+
+
+
+
 Projeto Final da disciplina de Práticas De Computação de Dados - 1º Semestre Ilum Escola de Ciência
 
 ### Descrição do projeto
