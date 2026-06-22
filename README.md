@@ -13,7 +13,7 @@ Este trabalho foi desenvolvido para o projeto final da disciplina de Prática em
 
 ### Instalação e instruções
 
-Para executar o projeto, é necessário ter o Python 3.3.7 instalado, bem como as bibliotecas numpy, matplotlib, scikit-learn e jupyter, que podem ser instaladas com o comando pip install numpy matplotlib scikit-learn jupyter. Em seguida, basta abrir o arquivo Projeto_Final.ipynb pelo Jupyter Notebook, executar todas as células em ordem. Para avaliar um novo paciente, basta inserir seus valores laboratoriais de cada biomarcador na função avaliar_paciente, localizada no bloco final do notebook, e o sistema classificará automaticamente o nível de risco e exibirá os gráficos correspondentes.
+Para executar o projeto, é necessário ter o Python 3.13.7 instalado, bem como as bibliotecas numpy, matplotlib e scikit-learn, que podem ser instaladas com o comando pip install numpy matplotlib scikit-learn jupyter. Em seguida, basta abrir o arquivo Projeto_Final.ipynb pelo Jupyter Notebook, executar todas as células em ordem. Para avaliar um novo paciente, basta inserir seus valores laboratoriais de cada biomarcador na função avaliar_paciente, localizada no bloco final do notebook, e o sistema classificará automaticamente o nível de risco e exibirá os gráficos correspondentes.
 
 
 ### Tecnologias utilizadas
@@ -21,8 +21,8 @@ Para executar o projeto, é necessário ter o Python 3.3.7 instalado, bem como a
 - **Python**: Linguagem de programação utilizada como base de todo o projeto.
 - **Jupyter Notebook**: Ambiente de desenvolvimento interativo no qual o projeto foi desenvolvido e documentado.
 - **Math**: Módulo nativo do jupyter lab utilizado especificamente pela função ceil, que calcula o número de linhas necessárias no grid de subgráficos com base na quantidade de biomarcadores.
-- **Numpy**: Biblioteca responsável pela manipulação de arrays numéricos e operações vetorizadas. Utilizada para estruturar os dados de treinamento de cada biomarcador, realizar cálculos de risco e aplicar a função np.clip, que limita os valores previstos ao intervalo [0, 1].
-- **Matplotlib**: Biblioteca de visualização gráfica usada para gerar todos os gráficos do projeto — dispersão, regressão linear, barras e pizza. Também foi utilizada para configurar a espessura das hachuras nos gráficos de pizza e para personalizar elementos visuais como zonas de fundo coloridas, legendas compartilhadas e formatação dos eixos.
+- **Numpy**: Biblioteca responsável pela manipulação de arrays numéricos e operações vetorizadas (versão 2.2.6). Utilizada para estruturar os dados de treinamento de cada biomarcador, realizar cálculos de risco e aplicar a função np.clip, que limita os valores previstos ao intervalo [0, 1].
+- **Matplotlib**: Biblioteca de visualização gráfica usada para gerar todos os gráficos do projeto (versão 3.10.6). Também foi utilizada para configurar a espessura das hachuras nos gráficos de pizza e para personalizar elementos visuais como zonas de fundo coloridas, legendas compartilhadas e formatação dos eixos.
 - **sklearn.linear_model**: Biblioteca da qual foi utilizado o módulo LinearRegression, responsável pelo ajuste dos modelos de regressão linear. A partir dele, são extraídos os coeficientes a e b de cada biomarcador, bem como o coeficiente de determinação R² para avaliação da qualidade do ajuste.
 
 
@@ -69,3 +69,5 @@ NATIONAL COMPREHENSIVE CANCER NETWORK (NCCN). Disponível em: https://www.nccn.o
 MICROSOFT. Copilot (modelo GPT-5). Orientações sobre uso de cores (HEX, RGB, nomes) e propriedades de fonte (fontweight) em gráficos no Python (matplotlib). Acesso em: 6 jun. 2026.
 
 Claude (versão Sonnet 4.6). Plataforma de inteligência artificial generativa. Orientação de melhorias para notebook Python. Resposta gerada em: 19  jun 2026. Disponível em: https://claude.ai. Acesso em: 19 jun. 2026.
+
+SCIKIT-LEARN. Supervised learning. Disponível em: https://scikit-learn.org/stable/supervised_learning.html. Acesso em: 6 jun. 2026.
