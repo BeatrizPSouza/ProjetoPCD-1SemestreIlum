@@ -1,5 +1,5 @@
-<img width="6000" alt="Inserir um título" src="https://github.com/user-attachments/assets/442abc6d-d376-4927-ab03-db6a7901cbb4" />
----
+<img width="1338" height="338" alt="Captura de tela 2026-06-22 111430" src="https://github.com/user-attachments/assets/d7b2d011-3cf0-4310-acc3-c294157c3284" />
+
 
 ### Descrição do projeto
 
